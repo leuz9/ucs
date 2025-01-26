@@ -32,7 +32,7 @@ function Home() {
           <div
             className="absolute inset-0 bg-cover bg-center bg-no-repeat"
             style={{
-              backgroundImage: "url('https://images.unsplash.com/photo-1438232992991-995b7058bbb3?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80')"
+              backgroundImage: "url('https://cdn.pixabay.com/photo/2021/10/12/13/46/cross-6703536_1280.jpg')"
             }}
           />
         </motion.div>
@@ -116,19 +116,19 @@ function Home() {
                 icon: Users,
                 title: "Unité",
                 description: "Nous croyons en la force de l'unité dans la diversité",
-                image: "https://images.unsplash.com/photo-1511632765486-a01980e01a18?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80"
+                image: "https://i.ibb.co/Z6KB9nY/Whats-App-Image-2025-01-26-at-15-06-21-1.jpg"
               },
               {
                 icon: Heart,
                 title: "Charité",
                 description: "L'amour du Christ nous pousse à servir notre prochain",
-                image: "https://images.unsplash.com/photo-1469571486292-0ba58a3f068b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80"
+                image: "https://i.ibb.co/cDrFJ11/Whats-App-Image-2025-01-26-at-15-06-21.jpg"
               },
               {
                 icon: Bible,
                 title: "Sainteté",
                 description: "Nous aspirons à une vie transformée par la grâce de Dieu",
-                image: "https://images.unsplash.com/photo-1507434965515-61970f2bd7c6?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80"
+                image: "https://i.ibb.co/h14Dc25/Whats-App-Image-2025-01-26-at-15-06-20-6.jpg"
               }
             ].map((item, index) => (
               <motion.div
@@ -169,7 +169,7 @@ function Home() {
               className="relative h-[600px] rounded-xl overflow-hidden"
             >
               <img
-                src="https://images.unsplash.com/photo-1544365558-35aa4afcf11f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80"
+                src="https://i.ibb.co/4YtvJFG/Whats-App-Image-2025-01-26-at-15-06-21-2.jpg"
                 alt="Worship"
                 className="absolute inset-0 w-full h-full object-cover"
               />

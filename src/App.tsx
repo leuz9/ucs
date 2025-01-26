@@ -15,6 +15,7 @@ import AdminDashboard from './pages/admin/Dashboard';
 import Directory from './pages/private/Directory';
 import Forum from './pages/private/Forum';
 import Messaging from './pages/private/Messaging';
+import Personalities from './pages/Personalities';
 
 function App() {
   return (
@@ -28,6 +29,7 @@ function App() {
             <Route path="/services" element={<Services />} />
             <Route path="/events" element={<Events />} />
             <Route path="/contact" element={<Contact />} />
+            <Route path="/personalities" element={<Personalities />} />
             <Route path="/login" element={<Login />} />
             <Route path="/register" element={<Register />} />
             <Route path="/admin/*" element={

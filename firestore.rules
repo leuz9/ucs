@@ -51,9 +51,9 @@ service cloud.firestore {
 
     // Collection newsletter_subscribers
     match /newsletter_subscribers/{subscriberId} {
-      allow read: if hasAnyRole(['admin', 'pastor']);
+      allow read: if isAuthenticated() && hasAnyRole(['admin', 'pastor']);
       allow create: if true;
-      allow update, delete: if hasAnyRole(['admin', 'pastor']);
+      allow update, delete: if isAuthenticated() && hasAnyRole(['admin', 'pastor']);
     }
 
     // Collection forum_posts

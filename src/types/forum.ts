@@ -1,9 +1,11 @@
+import { Timestamp } from 'firebase/firestore';
+
 export interface Comment {
   id: string;
   content: string;
   authorId: string;
   authorName: string;
-  createdAt: string;
+  createdAt: Timestamp;
 }
 
 export interface ForumPost {
@@ -14,5 +16,8 @@ export interface ForumPost {
   authorId: string;
   authorName: string;
   comments: Comment[];
-  createdAt: string;
+  likes: string[];
+  likesCount: number;
+  createdAt: Timestamp;
+  updatedAt: Timestamp;
 }
